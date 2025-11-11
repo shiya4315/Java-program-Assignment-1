@@ -1,0 +1,21 @@
+
+
+public class Employee {
+    private int empId;       
+    String name;               
+    protected double salary;   
+    public String role;        
+
+    
+    public Employee(int empId, String name, double salary, String role) {
+        this.empId = empId;
+        this.name = name;
+        this.salary = salary;
+        this.role = role;
+    }
+
+   
+    public int getEmpId() {
+        return empId;
+    }
+}
